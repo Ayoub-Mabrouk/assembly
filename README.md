@@ -1,8 +1,3 @@
-Here's a clean and beginner-friendly `README.md` you can place in your project root to explain the structure and how to use the Docker-based assembly development environment.
-
----
-
-### 📄 `README.md`
 
 ```markdown
 # Assembly Development Environment with Docker
