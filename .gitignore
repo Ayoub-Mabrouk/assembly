@@ -1,0 +1,16 @@
+# Ignore NASM object files and build artifacts
+projects/**/*.o
+projects/**/*.out
+projects/**/*.bin
+projects/**/*.exe
+projects/**/*.elf
+projects/**/a.out
+projects/**/output
+projects/**/hello
+
+# Ignore linker scripts and map files
+projects/**/*.ld
+projects/**/*.map
+
+# Ignore any build directories
+projects/**/build/

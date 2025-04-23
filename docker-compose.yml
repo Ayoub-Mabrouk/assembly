@@ -1,0 +1,13 @@
+services:
+  asm-dev:
+    build:
+      context: ./docker
+    container_name: asm-env
+    volumes:
+      - ./projects:/app/projects
+    working_dir: /app
+    tty: true
+    stdin_open: true
+    command: bash
+    environment:
+      - DEBIAN_FRONTEND=noninteractive
